@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Gloock&family=Mynerve&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    margin: auto;
+    padding: 80px;
+    background-color: lightblue;
+}
+
+.contenedor h1,h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.background{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+    }
+
+.contenido{
+        background-color: bisque;
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+
+}
+
+.contenido h2{
+    color: purple;
+}
+
+.contenido p{
+    width: 100%;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.contenido ol{
+    text-align: left;
+    font-size: 25px;
+    padding: 40px;
+}
+
+.usos{
+    background-image: url("../img/imagen2.jpeg");
+    height: 400px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 400px;
+}
+
+.encabezado{
+          padding: 0.1px;  
+          background-image: url("../img/imagen1.jpg");
+          height: 400px;
+    }
+
+.encabezado h2{
+    color: orangered;
+    height: 400px;
+    margin-left: 50px;
+    line-height: 400px;
+    font-size: 30px;
+    font-family: "Gloock", serif;
+}
+      
+.sintaxis{
+        
+        line-height: 400px;
+        background-image: url("../img/imagen3.jpg");
+        height: 400px;
+        color: white;
+    }
+
+.contenido ul{
+    text-align: left;
+    font-size: 25px;
+    padding: 40px;
+}
+       
+    
+h4{
+        font-size: 24px;
+        font-family: 'Gloock', serif;
+        line-height: 500px;
+        text-align: center;
+    }
+
+.datos{
+    background-color: darkviolet;
+    color: aliceblue;
+    font-family: "Mynerve", cursive;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    border: cornsilk double 10px;
+}
